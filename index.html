@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="email">Digite seu melhor e-mail</label>
+      <br/>
+      <input
+      type="email"
+      name="email"
+      id="email"
+      required
+      placeholder="Digite seu email"
+      />
+      <br>
+      <label for="descrição">Descrição</label>
+      <br>
+      <textarea
+      name="descrição"
+      id="descrição"
+      cols="30"
+      rows="10"
+      placeholder="Descreva o que te motivou a participar do evento"
+      ></textarea>
+      <br>
+      <label for="modulo">Módulo:</label>
+      <br>
+      <select required name="modulo" id="modulo">
+          <option value="" selected disabled >Escolha seu Módulo</option>
+          <option value="modulo 1">Módulo 1</option>
+          <option value="modulo 2">Módulo 2</option>
+          <option value="modulo 3">Módulo 3</option>
+        </select>
+        <br>
+        <br>
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          required
+          placeholder="Digita sua senha"
+        />
+        <label for="confirm senha">Confirmar Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="confirm senha"
+          required
+          placeholder="Digita sua senha"
+        />
+        <p>Deseja receber atualizações do evento pelo email?</p>
+        <label for="newsletter">Sim</label>
+        <input type="radio" name="newsletter" id="newsletter" value="sim">
+        <label for="newsletter">Não</label>
+        <input type="radio" name="newsletter" id="newsletter" value="não">
+        <br>
+        <br>
+        <button type="submit">Cadastrar</button>
+        
+        
+    </body>
+    
+</html>
